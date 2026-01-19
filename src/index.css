@@ -1,0 +1,123 @@
+:root {
+  --jewel-teal: #005F73;
+  --jewel-teal-light: #0A9396;
+  --jewel-teal-dark: #003D4F;
+  --rich-gold: #D4AF37;
+  --rich-gold-light: #E8C547;
+  --rich-gold-dark: #B8941F;
+  --amethyst-purple: #9966CC;
+  --amethyst-purple-light: #B085E8;
+  --amethyst-purple-dark: #7A4FA3;
+  --bg-light: #F8F9FA;
+  --text-dark: #2C3E50;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--bg-light);
+  color: var(--text-dark);
+}
+
+code {
+  font-family: 'Courier New', monospace;
+}
+
+.btn-jewel-teal {
+  background-color: var(--jewel-teal);
+  border-color: var(--jewel-teal);
+  color: white;
+}
+
+.btn-jewel-teal:hover {
+  background-color: var(--jewel-teal-dark);
+  border-color: var(--jewel-teal-dark);
+  color: white;
+}
+
+.btn-rich-gold {
+  background-color: var(--rich-gold);
+  border-color: var(--rich-gold);
+  color: #2C3E50;
+}
+
+.btn-rich-gold:hover {
+  background-color: var(--rich-gold-dark);
+  border-color: var(--rich-gold-dark);
+  color: white;
+}
+
+.btn-amethyst-purple {
+  background-color: var(--amethyst-purple);
+  border-color: var(--amethyst-purple);
+  color: white;
+}
+
+.btn-amethyst-purple:hover {
+  background-color: var(--amethyst-purple-dark);
+  border-color: var(--amethyst-purple-dark);
+  color: white;
+}
+
+.bg-jewel-teal {
+  background-color: var(--jewel-teal) !important;
+}
+
+.bg-rich-gold {
+  background-color: var(--rich-gold) !important;
+}
+
+.bg-amethyst-purple {
+  background-color: var(--amethyst-purple) !important;
+}
+
+.text-jewel-teal {
+  color: var(--jewel-teal) !important;
+}
+
+.text-rich-gold {
+  color: var(--rich-gold) !important;
+}
+
+.text-amethyst-purple {
+  color: var(--amethyst-purple) !important;
+}
+
+.border-jewel-teal {
+  border-color: var(--jewel-teal) !important;
+}
+
+.border-rich-gold {
+  border-color: var(--rich-gold) !important;
+}
+
+.border-amethyst-purple {
+  border-color: var(--amethyst-purple) !important;
+}
+
+.card-jewel-teal {
+  border-left: 4px solid var(--jewel-teal);
+}
+
+.card-rich-gold {
+  border-left: 4px solid var(--rich-gold);
+}
+
+.card-amethyst-purple {
+  border-left: 4px solid var(--amethyst-purple);
+}
+
+/* Header responsive styles */
+@media (max-width: 767.98px) {
+  .header {
+    padding: 0.75rem 1rem !important;
+  }
+  
+  .header h1 {
+    font-size: 1.25rem !important;
+  }
+}
