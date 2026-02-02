@@ -9,7 +9,7 @@ import Functions from './pages/Functions';
 import ArrayMethods from './pages/ArrayMethods';
 import StringMethods from './pages/StringMethods';
 import IfElse from './pages/IfElse';
-// import SwitchCase from './pages/SwitchCase';
+import SwitchCase from './pages/SwitchCase';
 import Loops from './pages/Loops';
 import Dates from './pages/Dates';
 import InterviewQuestions from './pages/InterviewQuestions';
@@ -28,7 +28,7 @@ function App() {
           <Route path="array-methods" element={<ArrayMethods />} />
           <Route path="string-methods" element={<StringMethods />} />
           <Route path="if-else" element={<IfElse />} />
-          {/* <Route path="switch-case" element={<SwitchCase />} /> */}
+           <Route path="switch-case" element={<SwitchCase />} /> 
           <Route path="loops" element={<Loops />} />
           <Route path="dates" element={<Dates />} />
           <Route path="interview-questions" element={<InterviewQuestions />} />

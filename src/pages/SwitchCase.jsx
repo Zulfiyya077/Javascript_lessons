@@ -226,7 +226,7 @@ console.log(userType + " user - " + discount + "% discount");`);
                       <h6 className="text-jewel-teal mb-3" style={{ fontWeight: '600' }}>if-else istifadə edin:</h6>
                       <ul className="small" style={{ lineHeight: '2' }}>
                         <li>Mürəkkəb şərtlər</li>
-                        <li>Range yoxlamaları (x > 10 && x < 20)</li>
+                        <li>Range yoxlamaları </li>
                         <li>Boolean məntiq</li>
                         <li>Az sayda seçim (2-3)</li>
                         <li>Dinamik şərtlər</li>
