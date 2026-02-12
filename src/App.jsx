@@ -12,6 +12,7 @@ import IfElse from './pages/IfElse';
 import SwitchCase from './pages/SwitchCase';
 import Loops from './pages/Loops';
 import Dates from './pages/Dates';
+import DOM from './pages/DOM';
 import InterviewQuestions from './pages/InterviewQuestions';
 
 function App() {
@@ -31,6 +32,7 @@ function App() {
            <Route path="switch-case" element={<SwitchCase />} /> 
           <Route path="loops" element={<Loops />} />
           <Route path="dates" element={<Dates />} />
+          <Route path="dom" element={<DOM />} />
           <Route path="interview-questions" element={<InterviewQuestions />} />
         </Route>
       </Routes>

@@ -16,6 +16,7 @@ const Sidebar = ({ isOpen, onClose }) => {
     { path: '/switch-case', name: 'Switch Case', component: 'SwitchCase' },
     { path: '/loops', name: 'Loops', component: 'Loops' },
     { path: '/dates', name: 'Dates', component: 'Dates' },
+    { path: '/dom', name: 'DOM', component: 'DOM' },
     { path: '/interview-questions', name: 'İntervyu Sualları', component: 'InterviewQuestions' },
   ];
 
