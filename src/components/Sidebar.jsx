@@ -17,6 +17,15 @@ const Sidebar = ({ isOpen, onClose }) => {
     { path: '/loops', name: 'Loops', component: 'Loops' },
     { path: '/dates', name: 'Dates', component: 'Dates' },
     { path: '/dom', name: 'DOM', component: 'DOM' },
+    { path: '/sliders', name: 'Sliders', component: 'Sliders' },
+    { path: '/data', name: 'Data', component: 'DataDisplay' },
+    { path: '/cards', name: 'Cards', component: 'Cards' },
+    { path: '/calculator', name: 'Calculator', component: 'Calculator' },
+    { path: '/login', name: 'Login', component: 'Login' },
+    { path: '/register', name: 'Register', component: 'Register' },
+    { path: '/upload', name: 'Upload', component: 'Upload' },
+    { path: '/shopping', name: 'Shopping', component: 'Shopping' },
+    { path: '/website', name: 'Website', component: 'Website' },
     { path: '/interview-questions', name: 'İntervyu Sualları', component: 'InterviewQuestions' },
   ];
 

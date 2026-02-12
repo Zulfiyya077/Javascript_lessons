@@ -13,6 +13,15 @@ import SwitchCase from './pages/SwitchCase';
 import Loops from './pages/Loops';
 import Dates from './pages/Dates';
 import DOM from './pages/DOM';
+import Sliders from './pages/Sliders';
+import DataDisplay from './pages/DataDisplay';
+import Cards from './pages/Cards';
+import Calculator from './pages/Calculator';
+import Login from './pages/Login';
+import Register from './pages/Register';
+import Upload from './pages/Upload';
+import Shopping from './pages/Shopping';
+import Website from './pages/Website';
 import InterviewQuestions from './pages/InterviewQuestions';
 
 function App() {
@@ -33,6 +42,15 @@ function App() {
           <Route path="loops" element={<Loops />} />
           <Route path="dates" element={<Dates />} />
           <Route path="dom" element={<DOM />} />
+          <Route path="sliders" element={<Sliders />} />
+          <Route path="data" element={<DataDisplay />} />
+          <Route path="cards" element={<Cards />} />
+          <Route path="calculator" element={<Calculator />} />
+          <Route path="login" element={<Login />} />
+          <Route path="register" element={<Register />} />
+          <Route path="upload" element={<Upload />} />
+          <Route path="shopping" element={<Shopping />} />
+          <Route path="website" element={<Website />} />
           <Route path="interview-questions" element={<InterviewQuestions />} />
         </Route>
       </Routes>
