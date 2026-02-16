@@ -13,6 +13,9 @@ import SwitchCase from './pages/SwitchCase';
 import Loops from './pages/Loops';
 import Dates from './pages/Dates';
 import DOM from './pages/DOM';
+import EventHandling from './pages/EventHandling';
+import AsyncAwait from './pages/AsyncAwait';
+import FetchAPI from './pages/FetchAPI';
 import Sliders from './pages/Sliders';
 import DataDisplay from './pages/DataDisplay';
 import Cards from './pages/Cards';
@@ -42,6 +45,9 @@ function App() {
           <Route path="loops" element={<Loops />} />
           <Route path="dates" element={<Dates />} />
           <Route path="dom" element={<DOM />} />
+          <Route path="event-handling" element={<EventHandling />} />
+          <Route path="async-await" element={<AsyncAwait />} />
+          <Route path="fetch-api" element={<FetchAPI />} />
           <Route path="sliders" element={<Sliders />} />
           <Route path="data" element={<DataDisplay />} />
           <Route path="cards" element={<Cards />} />
